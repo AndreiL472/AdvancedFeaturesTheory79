@@ -4,11 +4,14 @@ import com.javaremotero79.part2_oop_principles.encapsulation.UserAccount;
 import com.javaremotero79.part2_oop_principles.inheritance.Chef;
 import com.javaremotero79.part2_oop_principles.inheritance.Emloyee;
 import com.javaremotero79.part2_oop_principles.inheritance.Waiter;
+import com.javaremotero79.part2_oop_principles.polymorphism.Developer;
+import com.javaremotero79.part2_oop_principles.polymorphism.FrontEndDev;
 
 public class Main {
     public static void main(String[] args) {
 
         /* Encapsulation */
+
         UserAccount userAccount = new UserAccount();
         userAccount.setUsername("Jianu14");
         userAccount.setPassword("catelusCuParulCret14");
@@ -29,8 +32,20 @@ public class Main {
 
         System.out.println("Input din parent class Waiter: " + waiter.generateText());
         waiter.sayHi();
+
+        /* Polymorphism */
+
+        Developer developer = new Developer();
+        FrontEndDev frontEndDev = new FrontEndDev();
+
+        developer.work();
+        frontEndDev.work();
+
+        System.out.println(developer.add(4,4));
+        System.out.println(developer.add(4.2, 1.7));
+        System.out.println(developer.add(1221351513L,-1212412415L));
     }
-    }
+}
 
 
 
