@@ -1,4 +1,4 @@
-package com.javaremotero79.part3_dsa_collections;
+package com.javaremotero79.part3_dsa_collections.list;
 
 import java.util.LinkedList;
 import java.util.List;
