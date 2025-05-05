@@ -90,6 +90,6 @@ public class HashMapExample {
         for (String it: capitaleSiTari.values()){
             System.out.println(it + " ");
         }
-        System.out.println("-----------");
+        System.out.println("-----------=");
     }
 }
