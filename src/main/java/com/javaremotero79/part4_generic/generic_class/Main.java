@@ -1,9 +1,8 @@
-package com.javaremotero79.part4_generic;
+package com.javaremotero79.part4_generic.generic_class;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {

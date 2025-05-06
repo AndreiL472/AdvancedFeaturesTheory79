@@ -1,4 +1,4 @@
-package com.javaremotero79.part4_generic;
+package com.javaremotero79.part4_generic.generic_class;
 
 public class Box<T> {
     private T value;
