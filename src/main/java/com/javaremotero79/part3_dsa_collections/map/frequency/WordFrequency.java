@@ -56,6 +56,7 @@ public class WordFrequency {
         // valabil si la nivel de set de clase simple: String, Integer, Floar, Double, Character, etc
         System.out.println(sortedFreqCuvinte+ "\n---------------");
 
+
         TreeMap<String, Integer> descendingFreqCuvinte = new TreeMap<>(
           Comparator
                   .comparing(String::length)
